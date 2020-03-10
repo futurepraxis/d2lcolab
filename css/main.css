@@ -11,8 +11,7 @@ body {
 
 nav {
     width: 100%;
-    min-height: 2.5em;
-    height: 100%;
+    min-height: 3em;
     position: fixed;
     display: block;
     text-align: center;
@@ -48,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     color: #fff;
-    font-size: 6em; 
+    font-size: 5.5em; 
     line-height: .75em;
     border-color: #E6D350;
     border-style: solid;
@@ -94,7 +93,7 @@ h4 {
     width: 75%;
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 5%;
     
 }
 
@@ -228,6 +227,10 @@ p {
     }
     nav ul li { 
         display: block;
+    }
+    
+    .title {
+        left: 25%;
     }
     
     .intro > div, .process > div, .styleguide > div, .appendix > div {
