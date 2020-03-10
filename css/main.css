@@ -100,11 +100,15 @@ h4 {
 .splash {
     width: 98vw;
     height: 98vh;
+    background-color: #464df4;
     background-image: url('../images/splashBG-mobile.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll; 
     border-radius: 1em;
 }
 
