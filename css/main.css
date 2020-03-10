@@ -25,6 +25,10 @@ nav ul, footer ul, a, h1, h2, h3, h4, h5, h6 {
     font-family: "Archivo Black", "Helvetica", "Arial", "sans-serif";
 }
 
+nav a {
+    color: #fcfcfc;
+}
+
 nav ul {
     font-size: 1.75em;
     line-height: 2em;
@@ -40,6 +44,19 @@ nav ul li {
 h1, h2, h3, h4, h5, h6 {
     color: #353535;
 }
+
+h1 {
+    color: #fff;
+    font-size: 8em;
+    line-height: .75em;
+    border-color: #E6D350;
+    border-style: solid;
+    border-width: 0 0 0 .125em;
+    padding-left: .25em;
+    margin: 0;
+    
+}
+
 
 h2 {
     font-size: 4.5em;
@@ -71,6 +88,14 @@ h4 {
     width: 90%;
 }
 
+.title {
+    
+    width: 75%;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+
 .splash {
     width: 98vw;
     height: 98vh;
@@ -95,42 +120,29 @@ h4 {
 }
 
 .intro > div, .process > div {
-    width: 50%;
+    width: 65%;
     margin: auto;
     margin-top: 2em;
+    padding-left: 13em;
 }
 
-.title {
-    font-family: "Archivo Black", "Helvetica", "Arial", "sans-serif";
-    font-size: 10em;
-    line-height: .75em;
-    text-align: center;
-    color: #fff;
-    width: 1000px;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    border-color: #E6D350;
-    border-style: solid;
-    border-width: 0 .125em;
+.process-contents { 
+width: 100%; 
+background-color: #F5EFFF;
+    border-radius: 1em;
+    padding: .25em;
+    column-count: 2;
 }
 
-
-
-.content {
-    width: 90%;
-    position: relative;
-    margin: 1em 0 2em 0;
-    border-left-color: #E6D350;
-    border-left-width: 1.5em;
-    border-left-style: solid;
-    padding-left: 1.5em;
+.process-contents > ul {
+display: block;
 }
 
 a {
     text-decoration: none;
-    color: #fcfcfc;
+    color: #464df4;
 }
+
 a:hover {
     text-decoration: underline;
     color: #E6D350;
