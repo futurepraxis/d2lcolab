@@ -100,7 +100,7 @@ h4 {
 .splash {
     width: 98vw;
     height: 98vh;
-    background-image: url('../images/splashBG.jpg');
+    background-image: url('../images/splashBG-mobile.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -231,6 +231,10 @@ p {
     
     .title {
         left: 25%;
+    }
+    
+    .splash {
+    background-image: url('../images/splashBG.jpg');
     }
     
     .intro > div, .process > div, .styleguide > div, .appendix > div {
