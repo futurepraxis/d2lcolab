@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo|Archivo+Black|Noto+Serif+JP&display=swap');
 
 body {
-    background-color: #ffffff;
+    background-color: #fff;
     color: #2b2d2f;
     font-family: "Noto Serif JP", 'Times New Roman', Times, serif;
     font-size: 1em;
     line-height: 2.25em;
+    
+    margin: 0;
 }
 
 
@@ -18,7 +20,8 @@ nav {
     background-color: #464df4;
     opacity: 0.9;
     margin-bottom: 1em;
-    margin-top: -.5em;
+    margin-top: -1em;
+    padding-top: 1em;
 }
 
 nav ul, footer ul, a, h1, h2, h3, h4, h5, h6 {
@@ -41,7 +44,7 @@ nav ul li {
     display: inline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
     color: #353535;
 }
 
@@ -75,13 +78,14 @@ h3 {
     font-size: 1.75em;
     border-bottom: solid;
     border-width: .25em;
-    margin: 1.75em 0 1em 0;
+    margin: 3.5em 0 1em 0;
     padding-bottom: .25em;
 }
 
 h4 {
     font-size: 1.75em;
     font-style: italic;
+    margin: 1.5em 0;
 }
 
 .container { 
@@ -99,7 +103,8 @@ h4 {
 
 .splash {
     width: 98vw;
-    height: 98vh;
+    height: 97vh;
+    margin: 1em 0 0 1em;
     background-color: #464df4;
     background-image: url('../images/splashBG-mobile.jpg');
     background-repeat: no-repeat;
@@ -109,15 +114,24 @@ h4 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-attachment: scroll; 
-    border-radius: 1em;
+    border-radius: 3em;
 }
 
 .intro, .process, .styleguide, .appendix {
-    width: 98vw;
+    width: 100%;
     height: 100%;
-    border-radius: 1em;
+    border-radius: 0 3em 3em 0;
     padding: 2em 0;
-    margin-top: 2em;
+    margin: 3em 0 0 1em;
+}
+
+.process, .appendix {
+    background-color: #F8F9F7;
+    margin-top: 5em;
+}
+
+.appendix {
+    margin-bottom: 3em;
 }
 
 .intro, .styleguide {
@@ -144,6 +158,7 @@ width: 90%;
 
 .process-contents > h3 {
 column-span: all;
+margin-top: 1em;
 }
 
 .back-to-top {
@@ -182,7 +197,7 @@ p {
     .image {
         width: 75%;
         display: block;
-        margin: 1em auto;
+        margin: 3em auto;
     }
 
 
@@ -190,7 +205,8 @@ p {
     position: relative;
     overflow: hidden;
     width: 100%;
-     padding-bottom: 56.25%;
+    padding-bottom: 56.25%;
+    margin: 3em 0;
 }
 
 .resp-iframe {
@@ -221,7 +237,7 @@ p {
    nav { 
     
     width: 20%;
-    height: 99vh;
+    height: 100vh;
     
     }
     
