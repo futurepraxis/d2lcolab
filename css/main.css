@@ -115,6 +115,7 @@ h4 {
     -o-background-size: cover;
     background-attachment: scroll; 
     border-radius: 3em;
+    box-shadow: 5px 10px 18px #cccccc;
 }
 
 .intro, .process, .styleguide, .appendix {
@@ -123,6 +124,7 @@ h4 {
     border-radius: 0 3em 3em 0;
     padding: 2em 0;
     margin: 3em 0 0 1em;
+    box-shadow: 5px 10px 18px #e5e5e5;
 }
 
 .process, .appendix {
